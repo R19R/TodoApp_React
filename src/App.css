@@ -1,0 +1,90 @@
+/* .App {
+  padding: 30px;
+  height: 100vh;
+} */
+
+#appHeading{
+  text-align: center;
+}
+#appRuler{
+  width: 43.5%;
+  position: fixed;
+  left: 27%;
+  top: 9%;
+  border: 1px solid black;
+  background: black;
+}
+.todo-list {
+  margin: 25px;
+  /* background: rgb(112, 111, 111); */
+  border-radius: 4px;
+  border: 2px solid green;
+  padding: 7px;
+  max-width: 650px;
+  width: 75%;
+  position: fixed;
+  left: 25.25%;
+  top: 22%;  
+}
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  margin-top: 1%;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 2px solid grey ;
+  word-break: break-all;
+  width: 96%;
+}
+.todo-form{
+  margin: auto;
+  /* background: rgb(112, 111, 111); */
+  /* border: 2px solid black; */
+  padding: 5px;
+  max-width: 400px;
+  width: 75%;
+  position: fixed;
+  left: 36%;
+  top: 12%;
+}
+
+.todo-form input {
+  width: 665px;
+  height: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+  position: fixed;
+  left: 27%;
+}
+.taskDone{
+  text-decoration: line-through;
+}
+.submitButton{
+  width: 25%;
+  width: 5%;
+  left: 47%;
+  top: 20%;
+  position: fixed;
+  font-size: 16px;
+  border: 2px solid black;
+}
+.Deletebutton{
+  margin-top: 10px;
+  /* background-color: #f44336; */
+  border: 2px solid black;
+  /* color: white; */
+  /* padding: 2px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  width: 15%;
+  margin-bottom: 10px;
+  margin-left: 280px;
+}
